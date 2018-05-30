@@ -35,4 +35,16 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
+    'github' => [
+        'client_id' => '0727c68d8a2101da1bb5',
+        'client_secret' => 'e703d01e541d4f966148f5dd2ab66c94a28fce0a',
+        'redirect' => 'http://localhost:8000/retorno/github',
+    ],
+
+    'facebook' => [
+        'client_id' => '639474056399344',
+        'client_secret' => '019a5a5ff2cf2b613dad5e77a9a491fd',
+        'redirect' => 'http://localhost:8000/retorno/facebook',
+    ],
+
 ];
