@@ -83,8 +83,8 @@
                 </div>
 
                 <div class="links">
-                    <a href="#">Entrar com Facebook</a>
-                    <a href="#">Entrar com Github</a>
+                    <a href="{{ url('entrar/facebook') }}">Entrar com Facebook</a>
+                    <a href="{{ url('entrar/github') }}">Entrar com Github</a>
                 </div>
             </div>
         </div>
